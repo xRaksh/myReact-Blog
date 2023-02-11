@@ -1,0 +1,98 @@
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.head h1 {
+    font-size: 3.5rem;
+}
+
+.card_body{
+    margin: 3.5rem 0;
+
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 0px 33px 13px rgba(14, 12, 12, 0.28);
+    -webkit-box-shadow: 0px 0px 33px 13px rgba(14, 12, 12, 0.28);
+    -moz-box-shadow: 0px 0px 33px 13px rgba(14, 12, 12, 0.28);
+}
+
+.card-body h3 {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.grid-two-col{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-fiv-col{
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.data h2{
+    font-size: 6rem;
+}
+
+.data p{
+    font-size: 2.5rem;
+}
+
+.data_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data_img img{
+    height: 400px;
+    width: 400px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: #ffdde1; */
+}
+
+.cont h2{
+    text-align: center;
+    margin: 2rem;
+    font-size: 3.5rem;
+}
+
+.contact{    
+    margin-top: 2.3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact input, .contact textarea{
+    width: 70%;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    /* border: none; */
+    border-radius: 7px;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #753a88;
+}
